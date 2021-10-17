@@ -50,7 +50,7 @@ rnbqkbnr
 ....#...
 ....#...
 ````
-- k**N**ight(3) moves to any of the closest squares that are not on the same rank, file, or diagonal.
+- K**n**ight(3) moves to any of the closest squares that are not on the same rank, file, or diagonal.
 ````
 ........
 ........
@@ -83,7 +83,7 @@ rnbqkbnr
 .#..#..#
 #...#...
 ````
-- **K**ing moves one square in any direction.
+- **K**ing moves one square in any direction, in case of not being captured.
 ````
 ........
 ........
@@ -94,3 +94,22 @@ rnbqkbnr
 ...###..
 ........
 ````
+## Check and Checkmate
+With a king under immediate attack, the player is **in check**, whose legal moves are the only ones that rid the king of immediate attack. This can involve:
+- Capturing the checking piece;
+- interposing a piece between the checking piece and the king;
+- moving the king to a square where it is not under attack.
+Castling is impermissible in response to a check.
+
+The object of the game is to checkmate the opponent: leave the opponent's king in check, without legal way to rid it.
+It is never legal for a player to make a move that puts or leaves the player's own king in check.
+
+##Castling
+Once in every game, each king can make a special move, known as castling. Castling consists of moving the king two squares along the player's first rank toward a rook on the same rank, and then placing the rook on the last square that the king crossed.
+
+Castling is permissible if the following conditions are met:[1]
+
+Neither the king nor the rook has previously moved during the game.
+There are no pieces between the king and the rook.
+The king is not in check, and will not pass through or land on any square attacked by an enemy piece.
+Castling is still permitted if the rook is under attack, or if the rook crosses an attacked square.
