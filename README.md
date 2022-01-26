@@ -27,7 +27,8 @@ rnbqkbnr
 ##Basic Moves
 - The following piece can and only can move to places with # sign.
 
-- **P**awn(1) moves one step forward, and possibly two for the first move, but captures one step diagonally, for instance, both the black rooks.
+- **P**awn(1) moves one step forward, and possibly two for the first move, but captures one step diagonally, for instance, both the black rooks (R).
+-- Promotes when reach the final line (8 for white and 1 for black)
 ````
 ....#...
 ....p...
