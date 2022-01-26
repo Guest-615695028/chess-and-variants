@@ -11,7 +11,7 @@ The game object is to checkmate the opponent's king, whereby the king is under i
 4. 50-move rule: no pawn has been moved and no capture has been made during the previous 50 moves, the game results in draw.
 5. Draw by agreement;
 
-##Set up
+## Set up
 - Uppercase for black, lowercase for white.
 ````
 RNBQKBNR
@@ -24,11 +24,10 @@ pppppppp
 rnbqkbnr
 ````
 
-##Basic Moves
+## Basic Moves
 - The following piece can and only can move to places with # sign.
 
-- **P**awn(1) moves one step forward, and possibly two for the first move, but captures one step diagonally, for instance, both the black rooks (R).
--- Promotes when reach the final line (8 for white and 1 for black)
+- **P**awn(1) moves one step forward, and possibly two for the first move, but captures one step diagonally, for instance, both the black rooks (R). Promotes when reach the final line (8 for white and 1 for black)
 ````
 ....#...
 ....p...
